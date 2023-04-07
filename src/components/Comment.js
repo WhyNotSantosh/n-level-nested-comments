@@ -15,7 +15,7 @@ const Comment = ({ comment, addComment }) => {
         <div className="px-3 flex-wrap">
           <span className="font-bold">{name}</span>
           <p className="">
-            {id}:{text}
+            {text}
           </p>
         </div>
       </div>
